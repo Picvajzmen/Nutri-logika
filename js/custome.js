@@ -157,6 +157,9 @@ menu_toggle.addEventListener("click", function () {
   menu_toggle.classList.toggle("open");
 });
 
+/*** SUBMENU ****/
+
+
 /******* NAVBAR ZATVARANJE NA CLICK ******/
 $(function () {
   $(".navbar__link").on("click touch", function () {

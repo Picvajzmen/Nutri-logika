@@ -89,6 +89,64 @@ img {
   width: 100vw;
   height: 100vh;
 }
+
+.dropdown {
+  position: relative;
+  display: block;
+  /* transition: all .4s ease; */
+}
+
+.dropdown-menu {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  background: #fff;
+  transition: all 0.4s ease;
+  /* transform: scale(0); */
+  transform-origin: top left;
+  width: 200px;
+  /* height:200px; */
+  list-style: none;
+  text-align: left;
+   padding: 1.5rem;
+  /* padding-top: 2rem; */
+}
+
+.dropdown:hover > .dropdown-menu, .dropdown-menu:hover {
+  visibility: visible;
+  opacity: 1;
+  /* transform: scale(1); */
+}
+
+.dropdown .navbar__link::after {
+  content: "\2023";
+  font-size:1.5rem;
+  top: -8px;
+  transform: rotate(90deg);
+  position: absolute;
+  margin-left: 6px;
+  display: inline-block;
+}
+
+.dropdown-item {
+  margin-top: 1rem;
+}
+
+.dropdown-item a {
+  text-decoration: none;
+  font-size: 1.05rem;
+  color: #000;
+}
+
+.dropdown-item a:hover {
+  color: var(--ljub);
+} 
+
+
+/* ========= NAVBAR OPEN MOBILE ========*/
+
 @media (orientation: landscape) {
   .navbar {
     height: auto;
@@ -474,8 +532,8 @@ hamburger animation
 
 /*******************************/
 .icon {
-  width: 5rem;
-  height: 5rem;
+  width: 3.5rem;
+  height: 3.5rem;
   object-fit: cover;
   /* max-width: none; */
   filter: drop-shadow(2px 1px 1px rgba(0, 0, 0, 0.3));
@@ -669,10 +727,11 @@ hamburger animation
 }
 
 .dugme__prijavi-se {
-  display: inline-block;
+  display: flex;
   padding-left: 0rem;
   justify-content: end;
-  margin: 2rem 0 2rem 0;
+  /* margin: 2rem 0 2rem 0; */
+  margin: auto;
   cursor: pointer;
   transition: scale ease 0.2s;
 }
@@ -2063,6 +2122,14 @@ p {
   margin: 0 auto;
 }
 
+.pages__page-wrapper .plan-single {
+  max-width: 500px;
+}
+
+.pages__page-wrapper .page__plan-text {
+  margin-bottom: 2rem;
+}
+
 .images {
   position: relative;
 }
@@ -2105,6 +2172,10 @@ p {
   bottom: -135px;
 }
 
+.consultations .puzla-after::after {
+  bottom: -205px;
+}
+
 .pages__front-img {
   position: absolute;
   top: 0;
@@ -2129,6 +2200,7 @@ p {
 }
 
 .page__plan-text p {
+  margin-top: 2rem;
   font-size: 1.04rem;
   font-weight: 400;
   color: #131200;
@@ -2254,18 +2326,18 @@ p {
     /* height: 100%; */
   }
 
-  .dugme__prijavi-se {
+  /* .dugme__prijavi-se {
     justify-content: start;
-  }
+  } */
 
   .dual-plan .dugme__prijavi-se a {
     width: 100%;
     padding-right: 0.8rem;
   }
 
-  .dual-plan__ikonica {
+  /* .dual-plan__ikonica {
     margin-right: 2rem;
-  }
+  } */
 
   .paketi__plan-content .dual-plan__ikonica {
     margin-right: 3rem;
@@ -2707,11 +2779,14 @@ p {
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
 .plan-single {
   margin-right: 1rem;
   box-shadow: 0px -5px 10px rgb(0 0 0 / 30%);
+  max-width: 325px;
+  padding-bottom: 1.5rem;
 }
 
 .plan-single:last-child {
@@ -2767,7 +2842,9 @@ p {
 .paketi__plan-content {
   padding: 0 1.5rem 1.5rem 1.5rem;
   position: relative;
-  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .paketi__plan-title h2 {
@@ -2784,7 +2861,10 @@ p {
   font-weight: 400;
   font-family: "Poppins", sans-serif;
 }
-
+.paketi__plan-text {
+  margin-bottom: 1rem;
+  height: 260px;
+}
 .paketi__plan-text p {
   font-size: 1.04rem;
   font-weight: 400;
@@ -2801,5 +2881,6 @@ p {
     flex-direction: column;
     align-items: center;
     margin-right: 0;
+    max-width: 450px;
   }
 }
