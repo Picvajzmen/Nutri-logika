@@ -93,7 +93,6 @@ img {
 .dropdown {
   position: relative;
   display: block;
-  /* transition: all .4s ease; */
 }
 
 .dropdown-menu {
@@ -104,30 +103,51 @@ img {
   left: 0;
   background: #fff;
   transition: all 0.4s ease;
-  /* transform: scale(0); */
   transform-origin: top left;
   width: 200px;
-  /* height:200px; */
   list-style: none;
   text-align: left;
-   padding: 1.5rem;
-  /* padding-top: 2rem; */
+  padding: 1.5rem;
 }
 
-.dropdown:hover > .dropdown-menu, .dropdown-menu:hover {
+.dropdown-menu-mobile {
+  display: none;
+  position: relative;
+  background: transparent;
+  transition: all 0.4s ease;
+  list-style: none;
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+}
+
+.dropdown-open.dropdown-menu-mobile {
+  display: block;
+}
+
+.dropdown:hover > .dropdown-menu,
+.dropdown-menu:hover {
   visibility: visible;
   opacity: 1;
-  /* transform: scale(1); */
 }
 
 .dropdown .navbar__link::after {
   content: "\2023";
-  font-size:1.5rem;
+  font-size: 1.5rem;
   top: -8px;
   transform: rotate(90deg);
   position: absolute;
   margin-left: 6px;
   display: inline-block;
+}
+
+.dropdown-link::after {
+  content: "\2023";
+  font-size: 1.5rem;
+  top: 0;
+  transform: rotate(90deg);
+  margin-left: 6px;
+  display: inline-block;
+  position: relative;
 }
 
 .dropdown-item {
@@ -142,10 +162,19 @@ img {
 
 .dropdown-item a:hover {
   color: var(--ljub);
-} 
-
+}
+@media (max-width: 770px) {
+  .dropdown {
+    display: none !important;
+  }
+}
 
 /* ========= NAVBAR OPEN MOBILE ========*/
+@media (min-width: 770px) {
+  .dropdown-mobile {
+    display: none !important;
+  }
+}
 
 @media (orientation: landscape) {
   .navbar {
@@ -185,7 +214,8 @@ img {
   border-bottom: none;
 }
 
-.navbar__link {
+.navbar__link,
+.dropdown-link {
   color: #000;
   text-decoration: none;
   text-transform: uppercase;
@@ -1768,6 +1798,9 @@ p {
 /* ===========================================
               BLOG - SINGLE POST 
 ==============================================*/
+.single-post__wrapper .single-post__content a {
+  word-break: break-all;
+}
 .single-post__title {
   width: 100%;
   /* background: var(--zut1); */

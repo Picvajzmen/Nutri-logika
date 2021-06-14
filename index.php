@@ -83,7 +83,7 @@
                 života, a opet je njegov efekat redovno praćen kontrolama i spram njih podešen kako bi se efikasno išlo ka cilju
                 (dinamičan je). 
               </p>
-              <a class="procitaj-jos" href="pages/ishrana.html">Pročitaj više </a>
+              <a class="procitaj-jos" href="pages/ishrana.php">Pročitaj više </a>
             </div>
             <div class="dugme__prijavi-se">
               <a href="index.php#prijava">
@@ -121,7 +121,7 @@
               na kraju svake nedelje je redovno kontrolisan i podleže
               redovnim izmenama kako bi konstatno gurao...
             </p>
-            <a class="procitaj-jos" href="pages/trening.html">Pročitaj više </a>
+            <a class="procitaj-jos" href="pages/trening.php">Pročitaj više </a>
             </div>
             <div class="dugme__prijavi-se">
               <a href="../index.php#prijava">
@@ -163,7 +163,7 @@
               pravilne ishrane i treninga, a tako i sinergistički efekat (gde je 1+1=3) koji donosi ultimativnu transformaciju tela,
               zdravlja, uma i života. 
               </p>
-              <a class="procitaj-jos" href="pages/trening-ishrana.html">Pročitaj više </a>
+              <a class="procitaj-jos" href="pages/trening-ishrana.php">Pročitaj više </a>
             </div>
             <div class="dugme__prijavi-se">
               <a href="../index.php#prijava">
@@ -195,7 +195,7 @@
               <p>
               Online konsultacija predstavlja najjednostavniji način da se na stručan način konsultujete sa mnom o svemu vezanom za ishranu, trening i zdrav način života. Ova usluga vam nudi 45 minuta moje totalne pažnje i ekspertize, u svrhu rešavanja problema... 
               </p>
-              <a class="procitaj-jos" href="pages/online-konsultacije.html">Pročitaj više </a>
+              <a class="procitaj-jos" href="pages/online-konsultacije.php">Pročitaj više </a>
             </div>
             <div class="dugme__prijavi-se">
               <a href="../index.php#prijava">

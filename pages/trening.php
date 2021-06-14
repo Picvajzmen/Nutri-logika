@@ -144,7 +144,7 @@
               </p>
             </div>
             <div class="dugme__prijavi-se">
-              <a href="../index.php#prijava">
+              <a href="https://www.nutrilogika.rs/#prijava">
                 <div class="plan-treninga__ikonica">
                   <img
                     src="../css/img/dumbell.svg"

@@ -157,6 +157,12 @@ menu_toggle.addEventListener("click", function () {
   menu_toggle.classList.toggle("open");
 });
 
+let dropdown_toggle = document.querySelector('.dropdown-mobile');
+let dropdown_menu = document.querySelector('.dropdown-menu-mobile');
+dropdown_toggle.addEventListener('click', function(){
+  dropdown_menu.classList.toggle('dropdown-open');
+});
+
 /*** SUBMENU ****/
 
 

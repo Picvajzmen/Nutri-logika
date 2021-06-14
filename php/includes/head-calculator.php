@@ -85,9 +85,25 @@
             <li class="navbar__item">
               <a href="index.php#naslovna" class="navbar__link">Home</a>
             </li>
-            <li class="navbar__item">
-              <a href="index.php#ponuda" class="navbar__link">Ponuda</a>
-            </li>
+            <li class="navbar__item dropdown">
+            <a href="#" class="navbar__link"> Ponuda</a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item"><a href="pages/trening.php">Plan Treninga</a></li>
+                <li class="dropdown-item"><a href="pages/ishrana.php">Plan Ishrane</a> </li>
+                <li class="dropdown-item"><a href="pages/trening-ishrana.php">Plan Ishrane i Treninga</a> </li>
+                <li class="dropdown-item"><a href="pages/online-konsultacije.php">Online Konsultacije</a> </li>
+              </ul>
+          </li>
+           <!-- ==== MOBILE DROPDOWN ==== -->
+           <li class="navbar__item dropdown-mobile">
+            <a href="#" class="dropdown-link"> Ponuda</a>
+              <ul class="dropdown-menu-mobile">
+                <li class="dropdown-item"><a href="pages/trening.php">Plan Treninga</a></li>
+                <li class="dropdown-item"><a href="pages/ishrana.php">Plan Ishrane</a> </li>
+                <li class="dropdown-item"><a href="pages/trening-ishrana.php">Plan Ishrane i Treninga</a> </li>
+                <li class="dropdown-item"><a href="pages/online-konsultacije.php">Online Konsultacije</a> </li>
+              </ul>
+          </li>
             <li class="navbar__item">
               <a href="index.php#testimonials" class="navbar__link"
                 >Rezultati</a

@@ -106,7 +106,7 @@
               </p>
             </div>
             <div class="dugme__prijavi-se">
-              <a href="../index.php#prijava">
+              <a href="https://www.nutrilogika.rs/#prijava">
                 <div class="plan-ishrane__ikonica">
                   <img
                     src="../css/img/counseling.svg"

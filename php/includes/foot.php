@@ -15,20 +15,23 @@
         <div class="footer-links__container">
           <h3>Quick links:</h3>
           <ul class="footer-links--list">
-            <li class="footer__item">
+            <!-- <li class="footer__item">
               <a href="#naslovna" class="footer__link">Home</a>
+            </li> -->
+            <li class="footer__item">
+              <a href="pages/trening.php" class="footer__link">Plan Treninga</a>
             </li>
             <li class="footer__item">
-              <a href="#ponuda" class="footer__link">Ponuda</a>
+              <a href="pages/ishrana.php" class="footer__link">Plan Ishrane</a>
             </li>
             <li class="footer__item">
-              <a href="#testimonials" class="footer__link">Rezultati</a>
+              <a href="pages/trening-ishrana.php" class="footer__link">Plan Ishrane i Treninga</a>
             </li>
             <li class="footer__item">
-              <a href="#omeni" class="footer__link">O meni</a>
+              <a href="pages/online-konsultacije.php" class="footer__link">Online Konsultacije</a>
             </li>
             <li class="footer__item">
-              <a href="#prijava" class="footer__link">Prijavi se</a>
+              <a href="https://www.nutrilogika.rs/#prijava" class="footer__link">Prijavi se</a>
             </li>
             <li class="footer__item">
               <a href="calculator.php" class="footer__link">Kalkulator</a>
