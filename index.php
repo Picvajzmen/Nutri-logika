@@ -423,7 +423,7 @@
           </div>
           <div class="dugme-omeni__wrapper">
             <button class="dugme-login-admin dugme-omeni">
-              <a href="omeni.html">Pročitaj više</a>
+              <a href="omeni.php">Pročitaj više</a>
             </button>
           </div>
         </div>

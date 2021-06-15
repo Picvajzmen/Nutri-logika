@@ -36,7 +36,7 @@
               <a href="../pages/online-konsultacije.php" class="footer__link">Online Konsultacije</a>
             </li>
             <li class="footer__item">
-              <a href="https://www.nutrilogika.rs/#prijava" class="footer__link">Prijavi se</a>
+              <a href="../prijava.php" class="footer__link">Prijavi se</a>
             </li>
             <li class="footer__item">
               <a href="../calculator.php" class="footer__link">Kalkulator</a>

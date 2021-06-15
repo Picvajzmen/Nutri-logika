@@ -112,10 +112,10 @@
               >
             </li>
             <li class="navbar__item">
-              <a href="#omeni" class="navbar__link">O meni</a>
+              <a href="omeni.php" class="navbar__link">O meni</a>
             </li>
             <li class="navbar__item">
-              <a href="index.php#prijava" class="navbar__link">Prijavi se</a>
+              <a href="prijava.php" class="navbar__link">Prijavi se</a>
             </li>
             <li class="navbar__item">
               <a href="calculator.php" class="navbar__link">Kalkulator</a>

@@ -236,7 +236,7 @@
               </p>
             </div>
             <div class="dugme__prijavi-se">
-              <a href="https://www.nutrilogika.rs/#prijava">
+              <a href="../prijava.php">
                 <div class="dual-plan__ikonica"></div>
                 Prijavi se
               </a>

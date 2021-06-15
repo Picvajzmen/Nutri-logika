@@ -112,7 +112,7 @@
               </p>
             </div>
             <div class="dugme__prijavi-se">
-              <a href="https://www.nutrilogika.rs/#prijava">
+              <a href="../prijava.php">
                 <div class="plan-ishrane__ikonica">
                   <img src="../css/img/groceries.svg" alt="nutrition" class="icon" />
                 </div>

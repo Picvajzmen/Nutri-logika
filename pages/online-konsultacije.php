@@ -52,7 +52,7 @@
                 potrebne su im saveti ili bilo ko želi da podigne svoje
                 shvatanje ishrane, treninga i zdravog života na viši nivo.<br /><br />
 
-                Kako se vrši?<br /><br />
+                <b>Kako se vrši?</b><br /><br />
 
                 Vrši se online, u video+audio formatu (video poziv) ili samo
                 audio formatu (audio poziv). <br /><br />
@@ -74,7 +74,7 @@
                 Nakon zakazivanja tačnog datuma i vremena, na mail vam šaljem
                 link preko kog ćete pristupiti konsultaciji u potrebno vreme.<br /><br />
 
-                Koliko košta?<br /><br />
+                <b>Koliko košta?</b><br /><br />
 
                 Cena online konsultacije je 20 €, po jednoj konsultaciji.<br /><br />
 
@@ -106,7 +106,7 @@
               </p>
             </div>
             <div class="dugme__prijavi-se">
-              <a href="https://www.nutrilogika.rs/#prijava">
+              <a href="../prijava.php">
                 <div class="plan-ishrane__ikonica">
                   <img
                     src="../css/img/counseling.svg"
